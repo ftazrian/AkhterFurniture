@@ -1,0 +1,230 @@
+/* Headr Start */
+.navbar ul li a {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: sans-serif;
+}
+/* Header End */
+
+/* Featured Catagoey Start  */
+.wrapper{
+  margin-top: 50px;
+}
+.wrapper h5{
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.img-area{
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.threedimage{
+  padding: 0px 30px;
+}
+.threedimage_single{
+  height: 13rem;
+}
+.img-no1{
+  padding: 0px 30px;
+  border: 1px solid black;
+  height: 100px;
+  padding: 0 30px 20px;
+}
+
+figcaption{
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+/* Featured Catagoey End */
+
+/* Featured & New Product Start */
+.catagory-producrs {
+  background-color: rgb(234, 234, 235);
+}
+.catagory-producrs  h5{
+  font-family: sans-serif;
+  padding-top: 50px;
+}
+
+.catagory {
+  margin-top: -40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.catagory-box2 {
+  width: 24%;
+  padding: 10px 20px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+  .catagory-box2 {
+    width: 50%;
+    padding: 10px 20px;
+  }
+}
+
+.catagory-box2 span {
+  display: block;
+}
+
+.catagory-box2 a {
+  text-decoration: none;
+}
+
+.catagory-box2 .image-wrapp {
+  position: relative;
+  overflow: hidden;
+}
+
+.catagory-box2 .image-wrapp img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 60%;
+  width: auto;
+}
+
+.catagory-box2 .image-wrapp::before {
+  content: "";
+  display: block;
+  padding-top: 120%;
+}
+
+.catagory-box2 .catagory-title {
+  text-align: center;
+  font-size: 15px;
+  color: #000000;
+  text-decoration: none;
+}
+.option{
+  width: 30%;
+  height: auto;
+  margin-left: 35%;
+}
+.range{
+  margin-left: 35px;
+}
+/* Featured & New Product End */
+
+/* New Arrival Product start  */
+.fourimages img{
+  width: 100%;
+}
+.product_details{
+  display: flex;
+}
+/* body{
+  font-family: HarmoniaSansW01-Regular;
+} */
+.product_title a{
+  font-size: 14px;
+  width: 20px;
+}
+.product_types{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.listname{
+  border: 1px solid black;
+  height: 20%;
+  width: auto;
+  background-color: rgb(227, 189, 51);
+  border-radius: 5px;
+}
+.product_title_heading{
+  font-size: 20px;
+}
+.details h6{
+  font-size: 15px;
+  width: 60%;
+}
+.product_tabmenu{
+  display: flex;
+}
+.discount2{
+  width: 100%;
+  margin-top: 30px;
+  padding: 5px;
+}
+#discoundtad{
+  display: flex;
+}
+.product_details_image{
+  height: auto;
+}
+/* New Arrival Product End */
+
+
+.icon_size{
+  height: 80%;
+}
+#icontitle{
+  font-size: 13px;
+  padding-top: 15px;
+  color: #000;
+  font-family: sans-serif;
+}
+.blogs, h5{
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.subscribe_btn_heading h4{
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.subscribe_btn_heading p{
+  font-family: sans-serif;
+  font-size: 15px;
+}
+footer h5{
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+footer ul li, p{
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+/* footer p{
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 15px;
+} */
+
+
+
+/* SECOND PAGE START */
+
+/* Features & Service Info Start */
+#service_info{
+  display: flex;
+  justify-content: center;
+}
+
+
+/* Flip content start */
+#restheading{
+  font-size: 25px;
+}
+.lead{
+  font-size: 15px;
+  line-height: 2;
+  text-align: justify;
+}
+/* .secound_flip{
+  padding-top: 20px;
+} */
